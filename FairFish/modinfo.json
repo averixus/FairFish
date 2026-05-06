@@ -1,0 +1,12 @@
+{
+    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+    "type": "Content",
+    "modid": "fairfish",
+    "name": "Fair Fish",
+    "authors": [ "Averixus" ],
+    "description": "Make fish drops and cooking fairer and more logical.",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.22.0"
+    }
+}

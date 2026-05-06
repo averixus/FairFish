@@ -1,0 +1,171 @@
+[
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/behaviorsByType/*/1/properties/processTimeByType",
+        "value": {
+            "fishraw-*-arapaima-*-adult": 6,
+            "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": 5,
+            "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": 4,
+            "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": 3,
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": 3,
+            "*": 2
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/behaviorsByType/*/1/properties/processedStacksByType",
+        "value": {
+            "fishraw-*-arapaima-*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 15 } }],
+            "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 9 } }],
+            "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 7 } }],
+            "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 4 } }],
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 4 } }],
+            "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 2 } }],
+            "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 2 } }],
+            "*": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 1 } }]
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/behaviorsByType/*/1/properties/toolDurabilityCostByType",
+        "value": {
+            "fishraw-*-arapaima-*-adult": 5,
+            "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": 4,
+            "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": 4,
+            "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": 3,
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": 3,
+            "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": 2,
+            "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": 2,
+            "*": 1
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/behaviorsByType/*/1/properties/remainingItemByType",
+        "value": {
+            "fishraw-*-arapaima-*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 6 },
+            "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 5 },
+            "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 4 },
+            "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 3 },
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": { "type": "item", "code": "game:bone-fish", "quantity": 3 },
+            "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 2 },
+            "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": { "type": "item", "code": "game:bone-fish", "quantity": 2 },
+            "*": { "type": "item", "code": "game:bone-fish", "quantity": 1 }
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/attributes/isFishBaitByType",
+        "value": {
+            "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": true,
+            "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": true,
+            "@fishraw-.*-(alewife|chub|herring|mackerel|angel|butterfly|clown|puffer|tang|trigger|wrasse)-.*-adult": true,
+            "@fishraw-.*-(bass|carp|pickerel|snapper|walleye|wolf|wreckfish)-.*-juvenile": true,
+            "*": false
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/attributes/baitTagByType",
+        "value": {
+            "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": "bait-fishsmall",
+            "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": "bait-fishsmall",
+            "@fishraw-.*-(alewife|chub|herring|mackerel|angel|butterfly|clown|puffer|tang|trigger|wrasse)-.*-adult": "bait-fishtiny",
+            "@fishraw-.*-(bass|carp|pickerel|snapper|walleye|wolf|wreckfish)-.*-juvenile": "bait-fishtiny"
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/combustiblePropsByType",
+        "value": {
+            "fishraw-*-arapaima-*-adult": null,
+            "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": {
+                "meltingPoint": 150,
+                "meltingDuration": 500,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-standard-9-cooked" },
+                "requiresContainer": false
+            },
+            "@fishraw-.*-(barracuda|pike|sturgeon)-.*-adult": {
+                "meltingPoint": 150,
+                "meltingDuration": 330,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-long-7-cooked" },
+                "requiresContainer": false
+            },
+            "@fishraw-.*-(amberjack|grouper)-.*-adult": {
+                "meltingPoint": 150,
+                "meltingDuration": 330,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-standard-7-cooked" },
+                "requiresContainer": false
+            },
+            "fishraw-*-pickerel-*-adult": {
+                "meltingPoint": 150,
+                "meltingDuration": 150,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-long-4-cooked" },
+                "requiresContainer": false
+            },
+            "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": {
+                "meltingPoint": 150,
+                "meltingDuration": 150,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-standard-4-cooked" },
+                "requiresContainer": false
+            },
+            "fishraw-*-arapaima-*-juvenile": {
+                "meltingPoint": 150,
+                "meltingDuration": 150,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-long-4-cooked" },
+                "requiresContainer": false
+            },
+            "@fishraw-.*-(coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": {
+                "meltingPoint": 150,
+                "meltingDuration": 150,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-standard-4-cooked" },
+                "requiresContainer": false
+            },
+            "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": {
+                "meltingPoint": 150,
+                "meltingDuration": 90,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-standard-2-cooked" },
+                "requiresContainer": false
+            },
+            "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": {
+                "meltingPoint": 150,
+                "meltingDuration": 90,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fishchunk-standard-2-cooked" },
+                "requiresContainer": false
+            },
+            "*": {
+                "meltingPoint": 150,
+                "meltingDuration": 30,
+                "smeltedRatio": 1,
+                "smeltingType": "cook",
+                "smeltedStack": { "type": "item", "code": "game:fish-cooked" },
+                "requiresContainer": false
+            }
+        }
+    }
+]
