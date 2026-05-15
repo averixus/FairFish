@@ -1,0 +1,11 @@
+[
+    {
+        "file": "game:entities/animal/fish/freshwater-adult",
+        "op": "add",
+        "path": "/client/sizeByType",
+        "value": {
+            "*-piranha-*": 0.6,
+            "*-trout-*": 0.6
+        }
+    }
+]
