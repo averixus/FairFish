@@ -5,7 +5,7 @@
     "name": "Fair Fish",
     "authors": [ "Averixus" ],
     "description": "Make fish drops and cooking fairer and more logical.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependencies": {
         "game": "1.22.0"
     }
