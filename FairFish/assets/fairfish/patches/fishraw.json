@@ -263,5 +263,59 @@
                 "scale": 5
             }
         }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/guiTransformByType/fishraw-saltwater-coelacanth-common-juvenile/scale",
+        "value": 4.5
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "replace",
+        "path": "/guiTransformByType/fishraw-saltwater-grouper-black-juvenile/scale",
+        "value": 4.5
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "move",
+        "frompath": "/guiTransformByType/*",
+        "path": "/temp"
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "add",
+        "path": "/guiTransformByType/fishraw-saltwater-pickerel-*-adult",
+        "value": {
+            "rotation": { "x": 63, "y": 2, "z": -117 },
+			"origin": { "x": 0.5, "y": 0.27, "z": 0.44 },
+			"scale": 4.5
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "add",
+        "path": "/guiTransformByType/fishraw-freshwater-piranha-*-adult",
+        "value": {
+            "rotation": { "x": 63, "y": 2, "z": -117 },
+			"origin": { "x": 0.5, "y": 0.27, "z": 0.44 },
+			"scale": 2.0
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "add",
+        "path": "/guiTransformByType/fishraw-freshwater-trout-*-adult",
+        "value": {
+            "rotation": { "x": 63, "y": 2, "z": -117 },
+			"origin": { "x": 0.5, "y": 0.27, "z": 0.44 },
+			"scale": 2.0
+        }
+    },
+    {
+        "file": "game:itemtypes/food/fishraw",
+        "op": "move",
+        "path": "/guiTransformByType/*",
+        "frompath": "/temp"
     }
 ]
