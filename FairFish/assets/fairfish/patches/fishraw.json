@@ -8,7 +8,7 @@
             "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": 5,
             "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": 4,
             "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": 3,
-            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": 3,
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi|sheatfish)-.*-juvenile": 3,
             "*": 2
         }
     },
@@ -21,7 +21,7 @@
             "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 9 } }],
             "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 7 } }],
             "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 4 } }],
-            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 4 } }],
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi|sheatfish)-.*-juvenile": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 4 } }],
             "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 2 } }],
             "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 2 } }],
             "*": [{ "type": "item", "code": "fish-raw", "quantity": { "avg": 1 } }]
@@ -36,7 +36,7 @@
             "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": 4,
             "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": 4,
             "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": 3,
-            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": 3,
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi|sheatfish)-.*-juvenile": 3,
             "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": 2,
             "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": 2,
             "*": 1
@@ -51,7 +51,7 @@
             "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 5 },
             "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 4 },
             "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 3 },
-            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": { "type": "item", "code": "game:bone-fish", "quantity": 3 },
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi|sheatfish)-.*-juvenile": { "type": "item", "code": "game:bone-fish", "quantity": 3 },
             "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": { "type": "item", "code": "game:bone-fish", "quantity": 2 },
             "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": { "type": "item", "code": "game:bone-fish", "quantity": 2 },
             "*": { "type": "item", "code": "game:bone-fish", "quantity": 1 }
@@ -134,7 +134,7 @@
                 "smeltedStack": { "type": "item", "code": "game:fishchunk-long-4-cooked" },
                 "requiresContainer": false
             },
-            "@fishraw-.*-(coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": {
+            "@fishraw-.*-(coelacanth|grouper|mahi-mahi|sheatfish)-.*-juvenile": {
                 "meltingPoint": 150,
                 "meltingDuration": 150,
                 "smeltedRatio": 1,
@@ -183,7 +183,7 @@
 				"rotation": { "x": -90, "y": 1, "z": 85 },
 				"origin": { "x": 0.5, "y": 0.2, "z": 0.5 }
             },
-            "@fishraw-.*-(arapaima|mahi-mahi-sheatfish)-.*-juvenile": {
+            "@fishraw-.*-(arapaima|mahi-mahi|sheatfish)-.*-juvenile": {
                 "translation": { "x": 0, "y": -0.16, "z": 0 },
 				"rotation": { "x": -90, "y": 1, "z": 85 },
 				"origin": { "x": 0.5, "y": 0.2, "z": 0.5 }
@@ -214,7 +214,7 @@
         "value": {
             "@fishraw-.*-(arapaima|coelacanth|mahi-mahi|sheatfish|amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": "SingleCenter",
             "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": "Halves",
-            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": "Halves",
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi|sheatfish)-.*-juvenile": "Halves",
             "*": "Quadrants"
         }
     },
@@ -227,7 +227,7 @@
             "@fishraw-.*-(coelacanth|mahi-mahi|sheatfish)-.*-adult": 8,
             "@fishraw-.*-(amberjack|barracuda|grouper|pike|sturgeon)-.*-adult": 8,
             "@fishraw-.*-(bass|bream|carp|catfish|gurnard|haddock|hake|pickerel|pollock|salmon|snapper|tuna|walleye|wolf|wreckfish)-.*-adult": 16,
-            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi-sheatfish)-.*-juvenile": 16,
+            "@fishraw-.*-(arapaima|coelacanth|grouper|mahi-mahi|sheatfish)-.*-juvenile": 16,
             "@fishraw-.*-(crappie|perch|piranha|tilapia|trout)-.*-adult": 32,
             "@fishraw-.*-(amberjack|barracuda|catfish|pike|salmon|sturgeon|tuna)-.*-juvenile": 32,
             "*": 64
